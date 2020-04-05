@@ -55,7 +55,7 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
 
 /* PROJECT 1 LIFE SQUARED */
 
-#life-squared-hero { background: url("../images/header-life-squared-mobile.jpg") no-repeat center center fixed; background-size: cover;}
+#life-squared-hero { background: url("../images/header-life-squared.jpg") no-repeat center center; background-size: cover;}
 
 .projectCase { 
     display: flex;
@@ -84,13 +84,14 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
 #od-mockup4 { background: url('../images/od-mockup-5.jpg') no-repeat center center; background-size: cover;}
 
 /* WINE X BEATLES */
-#winexbeatles-hero { background: url("../images/header-winexbeatles.jpg") no-repeat center center fixed; background-size: cover;}
+#winexbeatles-hero { background: url("../images/header-winexbeatles.jpg") no-repeat center center; background-size: cover;}
 
 .bxw-imgCon { width: 90%; height: 300px; margin: 0 auto;  margin-top: 20px;}
 
 #bxw-img1 { background: url('../images/magazine-ad.jpg') no-repeat center center; background-size: cover; height: 100%; }
 
-#wine-label-1, #wine-label-2 { height: 100%; margin-top: 40px;}
+#wine-label-1 { height: 20%; margin-top: 40px; }
+#wine-label-2 { height: 100%; margin-top: 40px;}
 #bottle-model  { height: 350px; width: 290px;}
 
 .hugeX { width: 100%; }
@@ -104,8 +105,6 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 700px) {
-    #life-squared-hero { background: url("../images/header-life-squared-tablet.jpg") no-repeat center center fixed; background-size: cover;}
-
     .nextButton, .prevButton { display: inline-block; position: relative;}
     .nextButton a:hover, .prevButton a:hover { transform: scale(0.9); }
     .nextButton a { position: fixed; right: 0; top: 50%; background-color: #fff; border-radius: 100%; margin-right: 20px; transition: 0.5s;}
@@ -136,8 +135,6 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
 }
 
 @media screen and (min-width: 1200px) {
-    #life-squared-hero { background: url("../images/header-life-squared.jpg") no-repeat center center fixed; background-size: cover;}
-
     .nextButton img, .prevButton img { width: 30px; }
 
     .smAdCon { display: flex; justify-content: space-between;}

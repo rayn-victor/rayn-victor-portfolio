@@ -76,7 +76,7 @@ body {
 #leftNav { width: 40px; }
 
 footer { width: 100%; display: flex; justify-content: center; transition: 0.3s; cursor: pointer;}
-footer p { margin: 20px 0 20px 0; color: rgb(174, 174, 174);}
+footer p { margin: 40px 0 20px 0; color: rgb(174, 174, 174);}
 footer:hover { transform: scale(0.9); }
 
 #leftNav h1 { display: none; }
@@ -84,7 +84,7 @@ footer:hover { transform: scale(0.9); }
 
 /* HOME PAGE */
 #homePage { 
-    background: url('../images/bg-home-mobile.jpg') no-repeat center center;
+    background: url('../images/bg-home.jpg') no-repeat center center;
     background-size: cover; 
     height: 100%; 
     width: 100%;
@@ -181,7 +181,7 @@ footer:hover { transform: scale(0.9); }
 }
 
 .projectDesc p { display: none; width: 350px; margin: 0 auto; margin-top: 20px; font-size: 16px; }
-.projectDesc h2 { font-size: 42px; }
+.projectDesc h2 { font-size: 38px; }
 
 #project1 {
     background: url('../images/cover-od.jpg') center no-repeat no-repeat;
@@ -241,12 +241,12 @@ input::placeholder, textarea::placeholder { color: #ccc; }
     font-size: 16px;
     font-weight: bolder;
     cursor: pointer;
-    transition: 0.5s;
     margin: 0 auto;
     margin-top: 20px;
+    transition: 0.3s;
 }
 
-#submit:hover { transform: scale(0.95); color: #660706;}
+#submit:hover { transform: scale(0.95); background-color: rgb(176, 176, 176);}
 
 .socialMediaCon {
     width: 300px;
@@ -288,18 +288,11 @@ input::placeholder, textarea::placeholder { color: #ccc; }
 }
 
 @media screen and (min-width: 650px) {
-
+    
     #leftNav h1 { display: flex; margin: 16px 0 0 20px; font-size: 22px; }
     #leftNav { width: fit-content; }
     #rightNav { margin-right: 40px;}
 
-}
-
-@media screen and (min-width: 720px) {
-    #homePage {
-        background: url('../images/bg-home-tablet.jpg') no-repeat center center;
-        background-size: cover;
-    }
 }
 
 @media screen and (min-width: 1000px){
@@ -335,13 +328,6 @@ input::placeholder, textarea::placeholder { color: #ccc; }
     .contactSection { display: flex; justify-content: center;}
     #contactDivider { display: block; background-color: #ccc; width: 1px; height: 400px; margin-top: 100px;}
     #submit { margin: 20px 0 0 0; }
-}
-
-@media screen and (min-width: 1200px) {
-    #homePage {
-        background: url('../images/bg-home.jpg') no-repeat center center;
-        background-size: cover;
-    }
 }
 
 /* super big media queries */
