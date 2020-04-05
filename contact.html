@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display|Staatliches&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="css/reset.css">
+    <link  rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/ScrollToPlugin.min.js"></script>
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+    <title>Rayn Victor</title>
+</head>
+<body>
+    <section class="contactCon">
+        <nav class="mainNav">
+            <div id="leftNav">
+                <ul>
+                    <li><h1>RAYN VICTOR</h1></li>
+                    <li><a href="index.html"><img src="images/icon-home.svg" id="icon-home"></a></li>
+                </ul>
+            </div>
+            <div id="rightNav">
+                <a href="contact.html"><h1>LET'S TALK</h1></a></li>
+            </div>
+        </nav>
+        <div class="contactSection">
+            <div class="contactForm">
+                <form action="/contact.php" method="post">
+                    <h2 id="formTitle">GET IN TOUCH</h2>
+                    <p>If you would like to chat about projects, inquiries or worldly concerns such as Batman, feel free to slide into my inbox -</p>
+                    <label id="name" for="name">Name *</label>
+                    <input type="text" id="name" name="name" placeholder="Captain Kirk" required>
+
+                    <label id="email" for="email">Email ID *</label>
+                    <input type="text" id="email" name="email" placeholder="jimkirk@starfleet.com" required>
+
+                    <label id="subject" for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What would you like to talk about?">
+
+                    <label id="message" for="message">Message *</label>
+                    <textarea type="text" id="messagebox" name="message" placeholder="Leave me a message." required autocomplete="off"></textarea>
+                    <input type="submit" id="submit" value="SEND">
+                </form>
+            </div>
+            <div id="contactDivider"></div>
+            <div class="socialMediaCon">
+                <p>- or stop by my social media and so hello!</p>
+                <ul><li><img src="images/icon-linkedin.svg" id="icon-sm"><a href="https://www.linkedin.com/in/rayn-victor" target="_blank">rayn-victor</a><li>
+                    <li><img src="images/icon-email.svg" id="icon-sm"><a id="emailCopy">rayn.victor27@gmail.com</a><li>
+                    <li><img src="images/icon-vimeo.svg" id="icon-sm"><a href="https://vimeo.com/raynvictor" target="_blank">raynvictor</a><li>
+                    <li><img src="images/icon-instagram.svg" id="icon-sm"><a target="_blank">@raynvictor</a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p id="icon-up">Back to top.</p>
+        </footer>
+    </section>
+
+    <script src="/js/scripts/ScrollToPlugin.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
