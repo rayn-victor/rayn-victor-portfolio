@@ -1,1 +1,13 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 358.48"><defs><style>.cls-1{fill:#c4302b;}.cls-2{fill:#fff;}</style></defs><title>icon-youtube</title><path class="cls-1" d="M501.45,133.09A64.12,64.12,0,0,0,456.33,88C416.26,77,256,77,256,77S95.73,77,55.67,87.55a65.46,65.46,0,0,0-45.13,45.54C0,173.16,0,256.24,0,256.24s0,83.51,10.54,123.15a64.18,64.18,0,0,0,45.13,45.13c40.49,11,200.33,11,200.33,11s160.26,0,200.33-10.55a64.16,64.16,0,0,0,45.13-45.13C512,339.75,512,256.66,512,256.66S512.42,173.16,501.45,133.09Z" transform="translate(0 -77)"/><path class="cls-2" d="M205,333l133.27-76.76L205,179.49Z" transform="translate(0 -77)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#333333;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M501.5,133.1c-5.9-21.9-23.2-39.2-45.1-45.1C416.3,77,256,77,256,77S95.7,77,55.7,87.5
+	c-21.5,5.9-39.2,23.6-45.1,45.5C0,173.2,0,256.2,0,256.2s0,83.5,10.5,123.1c5.9,21.9,23.2,39.2,45.1,45.1c40.5,11,200.3,11,200.3,11
+	s160.3,0,200.3-10.5c21.9-5.9,39.2-23.2,45.1-45.1C512,339.7,512,256.7,512,256.7S512.4,173.2,501.5,133.1z"/>
+<path class="st1" d="M205,333l133.3-76.8L205,179.5V333z"/>
+</svg>
