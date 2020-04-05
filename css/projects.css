@@ -10,11 +10,11 @@ img { user-select: none; }
 
 .projectHero {
     width: 100%;
-    height: 100%;
+    height: 750px;
     text-align: center;
     position: fixed;
     z-index: -1;
-    margin-top: -850px;
+    margin-top: -750px;
 }
 
 .projectHeroCon { background-color: #50505064; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center;}
@@ -38,7 +38,7 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
     width: 100%;
     z-index: 9;
     background-color: #fff;
-    margin-top: 850px;
+    margin-top: 750px;
     box-shadow: 0px -3px 10px rgba(51, 51, 51, 0.372);
 }
 .allProjectsCon nav { padding-top: 30px; }
@@ -90,8 +90,9 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
 
 #bxw-img1 { background: url('../images/magazine-ad.jpg') no-repeat center center; background-size: cover; height: 100%; }
 
-#wine-label-1 { height: 20%; margin-top: 40px; }
-#wine-label-2 { height: 100%; margin-top: 40px;}
+#label2Con { height: 150px; margin-bottom: 20px; }
+#wine-label-1 { height: 100%; }
+#wine-label-2 { height: 100%; margin-bottom: 40px;}
 #bottle-model  { height: 350px; width: 290px;}
 
 .hugeX { width: 100%; }
@@ -115,6 +116,8 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
     .od-imgCon, .bxw-imgCon { height: 500px; }
     #bottle-model  { height: 500px; width: 390px;}
 
+    #label2Con { height: 200px; }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -129,6 +132,8 @@ footer { width: 100%; display: flex; justify-content: center; cursor: pointer;}
     .verticleLine { margin-top: 40px; }
 
     .hugeX p { font-size: 40px; margin-bottom: 40px;}
+
+    #label2Con { height: 260px; }
 
     .TIFFcon { display: flex; width: 70%; margin: 0 auto; justify-content: space-between; height: 500px; margin-bottom: 40px; }
     .TIFFcon p { margin-right: 40px; max-width: 350px; margin-top: 200px; line-height: 40px; }
